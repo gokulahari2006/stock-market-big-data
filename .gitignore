@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtual Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Distribution / Packaging / Builds
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit Local Secrets & Caches (Keep config.toml)
+.streamlit/secrets.toml
+
+# Spark Metastore & Warehouse
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Local Runtime Data & Databases
+# Raw and processed downloads (ephemeral cache)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Sample data fixtures MUST be tracked for offline and cloud demo
+!data/sample/*.csv
+
+# Trained model artifacts and local database
+models/*.joblib
+!models/.gitkeep
+database/*.db
+database/*.db-journal
+!database/.gitkeep
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
